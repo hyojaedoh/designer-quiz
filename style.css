@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #FFC0CB;
+    padding: 10px;
+}
+
+#logo {
+    float: left;
+}
+
+#logo h1 {
+    margin: 0;
+}
+
+.pink {
+    color: #FF69B4;
+}
+
+main {
+    text-align: center;
+    padding: 20px;
+}
+
+#quiz img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+#quiz h2 {
+    font-weight: bold;
+}
+
+#buttons {
+    margin-top: 20px;
+}
+
+button {
+    border: 2px solid #FF0000;
+    background-color: transparent;
+    color: #FF0000;
+    font-size: 16px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #FF0000;
+    color: #FFF;
+}
+
+button.dislike:hover,
+button.like:hover {
+    color: #FF0000;
+}
+
+#productBtn {
+    border: none;
+    text-decoration: underline;
+    color: #FF69B4;
+    background-color: transparent;
+    font-size: 16px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+#productBtn:hover {
+    color: #FF0000;
+    text-decoration: underline;
+}
